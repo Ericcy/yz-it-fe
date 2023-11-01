@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "脚手架工具类",
+  "keywords": [
+    "脚手架工具类"
+  ],
+  "author": "wuchunyang <wuchunyang@sto.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://snpm-registry.sto.cn/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  }
+}
